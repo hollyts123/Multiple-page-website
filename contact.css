@@ -1,0 +1,130 @@
+:root {
+  --main-heading-size: 96px;
+  --smaller-heading-size: 48px;
+  --button-color: #6b63ff;
+}
+
+
+h1 {
+  font-size: var(--main-heading-size);
+  margin-top: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: var(--smaller-heading-size);
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #64676A;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  margin: 40px 10px 0 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.email {
+  display: block;
+  text-decoration: none;
+  font-size: 28px;
+  color: #6b63ff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.email:hover {
+  text-decoration: underline;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  margin-bottom: 45px;
+}
+
+.my-name-link {
+  margin-left: 100px;
+}
+
+.main-paragraph {
+  text-align: center;
+  margin: 30px 30px;
+  font-size: 18px;
+}
+
+.image {
+  position: relative;
+  height: 400px;
+  width: 30%;
+  margin: auto;
+}
+
+img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+@media (max-width: 992px) {
+  .image {
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 78px;
+  }
+
+  h3, .email {
+    font-size: 20px;
+  }
+  
+  .main-paragraph {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+
+}  
+
+@media (max-width: 520px) {
+  .image {
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+
+  h3, .email {
+    font-size: 18px;
+  }
+  
+  .main-paragraph {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}

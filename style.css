@@ -1,0 +1,163 @@
+:root {
+  --main-heading-size: 96px;
+  --smaller-heading-size: 48px;
+  --button-color: #6b63ff;
+}
+
+* {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--main-heading-size);
+  margin: 0;
+}
+
+h2 {
+  font-size: var(--smaller-heading-size);
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.developer {
+  font-size: 24px;
+  font-weight: 500;
+  color: #64676A;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.contact {
+  background-color: var(--button-color);
+  color: #ffffff;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  background: var(--button-color);
+  margin: 40px 18px;
+  box-shadow: 1px 8px 8px #d0d0d0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.about {
+  background-color: #ffffff;
+  color: var(--button-color);
+  padding: 20px 15px;
+  font-size: 16px;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  margin: 60px 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+.my-name-link {
+  margin-left: 100px;
+}
+
+.card {
+  height: 600px;
+  background-color: #F4F2FE;
+  border: none;
+}
+
+img {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+.text-card {
+  text-align: left;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+p.text-card {
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.link-container {
+  padding-left: 10px;
+}
+
+.card-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--button-color);
+  color: white;
+  box-shadow: 1px 8px 8px #d0d0d0;
+}
+
+.my-webpage {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  padding: 20px 100px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 86px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .developer {
+    font-size: 20px;
+  }
+
+  .text-card {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .card-centered {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+ 
+
+  .link-container a {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 520px) {
+  .card {
+    height: 350px;
+  }
+
+  h1 {
+    font-size: 68px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .developer {
+    font-size: 18px;
+  }
+}
